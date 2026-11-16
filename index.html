@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asterio - Ipon kuki</title>
+    <title>Asterio | Ipon Kupi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="Asterio home">ASTERIO</a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="catalog.html">Catalog</a>
+                <a href="sale.html">Sale</a>
+            </nav>
+
+            <img class="header-icons" src="assets/header-icons.svg" alt="Search, shopping bag, and account">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Find Your Phonemate With Us">
+            <h1 class="visually-hidden">Find Your Phonemate With Us</h1>
+            <img src="assets/hero-banner.png" alt="" aria-hidden="true">
+        </section>
+
+        <section class="benefits" aria-label="Shopping benefits">
+            <ul class="benefit-list">
+                <li class="benefit">
+                    <span class="benefit-icon benefit-icon--shield" aria-hidden="true">
+                        <img src="assets/benefit-shield.svg" alt="">
+                        <img src="assets/benefit-check.svg" alt="">
+                    </span>
+                    <span class="benefit-copy">
+                        <strong>100% Original</strong>
+                        <small>Guaranteed authentic Apple product</small>
+                    </span>
+                </li>
+                <li class="benefit">
+                    <img class="benefit-icon" src="assets/delivery.svg" alt="" aria-hidden="true">
+                    <span class="benefit-copy">
+                        <strong>Fast Delivery</strong>
+                        <small>Across Indonesia</small>
+                    </span>
+                </li>
+                <li class="benefit">
+                    <img class="benefit-icon" src="assets/headset.svg" alt="" aria-hidden="true">
+                    <span class="benefit-copy">
+                        <strong>24/7 Support</strong>
+                        <small>Always here for you</small>
+                    </span>
+                </li>
+                <li class="benefit">
+                    <img class="benefit-icon" src="assets/payment.svg" alt="" aria-hidden="true">
+                    <span class="benefit-copy">
+                        <strong>Secure Payment</strong>
+                        <small>safe and trusted transaction</small>
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="products" aria-labelledby="products-title">
+            <div class="section-heading">
+                <div>
+                    <h2 id="products-title">Our Product</h2>
+                    <p>Explore the best seller Iphone</p>
+                </div>
+                <a class="see-all" href="catalog.html">See all Product</a>
+            </div>
+
+            <ul class="product-list">
+                <li>
+                    <article class="product-card">
+                        <div class="product-photo product-photo--17">
+                            <img src="assets/iphone-17-figma.png" alt="Green iPhone 17">
+                        </div>
+                        <div class="product-info">
+                            <h3>Iphone 17</h3>
+                            <a href="catalog.html">
+                                Click for the detail
+                                <span class="arrow-icon" aria-hidden="true">
+                                    <img src="assets/arrow-circle.svg" alt="">
+                                </span>
+                            </a>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="product-card">
+                        <div class="product-photo product-photo--air">
+                            <img src="assets/iphone-air-figma.png" alt="Iphone Air in silver and blue">
+                        </div>
+                        <div class="product-info">
+                            <h3>Iphone Air</h3>
+                            <a href="catalog.html">
+                                Click for the detail
+                                <span class="arrow-icon" aria-hidden="true">
+                                    <img src="assets/arrow-circle.svg" alt="">
+                                </span>
+                            </a>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="product-card">
+                        <div class="product-photo product-photo--duo">
+                            <img src="assets/iphone-duo-figma.png" alt="Iphone Duo">
+                        </div>
+                        <div class="product-info">
+                            <h3>Iphone Duo</h3>
+                            <a href="catalog.html">
+                                Click for the detail
+                                <span class="arrow-icon" aria-hidden="true">
+                                    <img src="assets/arrow-circle.svg" alt="">
+                                </span>
+                            </a>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="trade-in" aria-labelledby="trade-in-title">
+            <div class="trade-in-stripe" aria-hidden="true">
+                <img src="assets/trade-in-stripe.svg" alt="">
+            </div>
+            <div class="trade-in-copy">
+                <h2 id="trade-in-title">Upgrade Your Iphone<br>With Easy Trade-In</h2>
+                <a href="sale.html">
+                    Learn More
+                    <span class="arrow-icon" aria-hidden="true">
+                        <img src="assets/learn-more-arrow.svg" alt="">
+                    </span>
+                </a>
+            </div>
+            <img class="trade-in-phone" src="assets/trade-in-phone-figma.png" alt="Close-up of an iPhone camera">
+        </section>
+    </main>
 </body>
 </html>
